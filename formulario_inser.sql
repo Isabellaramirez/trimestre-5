@@ -1,0 +1,2 @@
+SELECT * FROM caso.formu_dona_obj;
+insert into caso.formu_dona_obj (id_donante, nom_donante, apellido_donante, donacion, direccion, celular) values (31, 'jessica', 'Ramirez', 'dinero', 'calle 50 a sur #36 - 89', '3144360846');
