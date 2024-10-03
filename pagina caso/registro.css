@@ -1,0 +1,104 @@
+.form-container {
+    max-width: 500px;
+    /* Ajusta el ancho máximo */
+    margin: auto;
+    /* Centrar el contenedor */
+    padding: 20px;
+    /* Espaciado interno */
+    background-color: #3f72d7;
+    /* Color de fondo opcional */
+    border-radius: 10px;
+    /* Bordes redondeados opcional */
+    box-shadow: 0 0 10px rgba(172, 22, 22, 0.1);
+    /* Sombra opcional */
+
+
+}
+
+
+.mb-3 {
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container {
+    /* ubica la caja de registro en el centro de la pantalla */
+    justify-content: center;
+    margin-top: 200px;
+    justify-self: center;
+}
+
+/* Estilo para los campos de entrada */
+.form-control {
+    border: 2px solid #070708;
+    /* Cambiar el borde a azul */
+    transition: border-color 0.3s;
+    /* Transición suave para el cambio de color */
+}
+
+/*edita el tamaño de la caja de texto*/
+.form-control {
+    width: 100%;
+    /* Ancho del 100% del contenedor padre */
+    max-width: 400px;
+    /* Máximo ancho de 400px */
+    border: 2px solid #007bff;
+    border-radius: 5px;
+}
+
+
+.form-control:focus {
+    border-color: hsl(211, 47%, 58%);
+    /* Cambiar el color del borde al hacer foco */
+    box-shadow: hsl(211, 47%, 58%);
+    /* Sombra al hacer foco */
+
+
+}
+
+/* Estilo para el botón */
+.btn-primary {
+    background-color: #4c77dc;
+    /* Cambiar color de fondo */
+    border-color: #6c5fe6;
+    /* Cambiar color del borde */
+
+}
+
+.btn-primary {
+    background-color: #4c77dc;
+    /* Cambiar color de fondo */
+    border-color: #6c5fe6;
+    /* Cambiar color del borde */
+
+}
+
+.btn-primary {
+    width: 30%;
+    /* Ancho del 100% del contenedor padre */
+    max-width: 400px;
+    /* Máximo ancho de 400px */
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+/*boton de registro*/
+.btn-primary:hover {
+    background-color: #5376f4;
+    /* Cambiar color de fondo al pasar el ratón */
+    border-color: #5376f4;
+    /* Cambiar color del borde al pasar el ratón */
+}
+
+/* Cambiar el tamaño de la etiqueta */
+.form-label {
+    font-size: 2rem;
+    /* Aumentar el tamaño de fuente */
+}
+
+h2 {
+    text-align: center
+}

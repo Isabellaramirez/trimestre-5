@@ -1,0 +1,41 @@
+.carousel-inner img {
+    max-height: 800px;
+    /* Ajusta la altura máxima de las imágenes */
+    object-fit: cover;
+    /* Mantiene la proporción de la imagen */
+    object-fit: contain;
+}
+
+
+/*
+.imagenes img {
+    width: 50%;
+    Ajusta al 50% del contenedor 
+    height: auto;}
+    Mantiene la proporción */
+
+.primera {
+    width: 300px;
+    /* Ajusta al 50% del contenedor */
+    height: auto;
+    /* Mantiene la proporción */
+}
+
+.segunda {
+    width: 400px;
+    /* Ajusta al 50% del contenedor */
+    height: auto;
+    /* Mantiene la proporción */
+}
+
+.tercera {
+    width: 400px;
+    /* Ajusta al 50% del contenedor */
+    height: auto;
+    /* Mantiene la proporción */
+}
+
+.container-fluid {
+    background-color: rgb(79, 79, 214);
+}
+
